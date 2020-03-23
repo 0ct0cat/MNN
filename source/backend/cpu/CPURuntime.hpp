@@ -9,6 +9,8 @@
 #ifndef CPURuntime_hpp
 #define CPURuntime_hpp
 
+#include <cstdint>
+
 #ifdef ENABLE_ARMV82
 struct cpuinfo_arm_isa{
     bool fp16arith;
